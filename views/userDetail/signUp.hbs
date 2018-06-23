@@ -1,0 +1,33 @@
+<div class ="row">
+  <div class="col-md-4 col-md-offset-4">
+    <h1><img src="{{signUpImage}}" alt="..." class="img-responsive"><h1>
+      {{#if showError}}
+      <div class ="alert alert-warning">
+        {{# each message}}
+        <div>{{this}}</div>
+        {{/each}}
+    </div>
+      {{/if}}
+      <form action ="/signUp" method ="post" class= "" id="">
+        <div class="form-group">
+          <label for ="name">Real Name</label>
+          <input type ="text" id ="name" name="name" class="form-control">
+        </div>
+      <div class="form-group">
+        <label for ="email">E-Mail</label>
+        <input type ="text" id ="email" name="email" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for ="password">Password</label>
+        <input type ="password" id ="password" name="password" class="form-control">
+      </div>
+      <input type="hidden" name="_csrf" value="{{csrfToken}}">
+         <button type="submit" class = "btn btn-primary">Sign Up</button>
+       </input>
+     </form>
+      </div>
+
+    </div>
+
+
+  

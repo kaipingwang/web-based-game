@@ -1,0 +1,119 @@
+<div class="row">
+    <div class="col-lg-12">
+        <h1 class="page-header">Game-based learning
+            <small>Web-based games</small>
+        </h1>
+    </div>
+</div>
+<div class ="row">
+    <div id="Carousel" class="carousel slide col-md-8">
+          <ol class="carousel-indicators">
+              <li data-target="Carousel" data-slide-to="0" class="active"></li>
+              <li data-target="Carousel" data-slide-to="1"></li>
+              <li data-target="Carousel" data-slide-to="2"></li>
+              <li data-target="Carousel" data-slide-to="3"></li>
+          </ol>
+
+          <div class="carousel-inner">
+              <div class="item active">
+                <div class="carousel-caption d-none d-md-block">
+                 <h3>Innovative Learning Method </h3>
+                 <p>Setp 1</p>
+                </div>
+                  <img class="d-block img-fluid" src="http://virtualworldsforteens.com/wp-content/uploads/2013/06/Super-Dancer8.jpg" alt="First slide">
+              </div>
+              <div class="item">
+                <div class="carousel-caption d-none d-md-block">
+                 <h3>Fun and Happy</h3>
+                 <p>Setp 2</p>
+                </div>
+                  <img class="d-block img-fluid" src="https://adventuregames101.files.wordpress.com/2011/01/weudaedavh.jpg" alt="Second slide">
+              </div>
+              <div class="item">
+                <div class="carousel-caption d-none d-md-block">
+                 <h3>Improve Learning Movitation</h3>
+                  <p>Setp 3</p>
+                </div>
+                  <img class="d-block img-fluid" src="http://yoffielife.com/wp-content/uploads/2015/05/shutterstock_296654168-790x350.jpg" alt="Third slide">
+              </div>
+              <div class="item">
+                <div class="carousel-caption d-none d-md-block">
+                 <h3>Versatile Devices</h3>
+                 <p>Setp 4</p>
+                </div>
+                  <img class="d-block img-fluid" src="http://www.computerrepairsheffield.com/web-.jpg" alt="Fourth slide">
+              </div>
+          </div>
+
+          <a class="left carousel-control" href="#Carousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#Carousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+      </div>
+
+  <div class="col-md-4">
+      {{#if showError}}
+      <div class ="alert alert-warning">
+        {{# each message}}
+        <div>{{this}}</div>
+        {{/each}}
+    </div>
+      {{/if}}
+      <form action ="/signIn" method ="post" class= "" id="">
+        <div class="form-group">
+          <label for ="name">Username</label>
+          <input type ="text" id ="name" name="name" class="form-control">
+        </div>
+      <div class="form-group">
+        <label for ="email">E-Mail</label>
+        <input type ="text" id ="email" name="email" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for ="password">Password</label>
+        <input type ="password" id ="password" name="password" class="form-control">
+      </div>
+      <input type="hidden" name="_csrf" value="{{csrfToken}}">
+         <button type="submit" class = "btn btn-primary">Login</button>
+      </form>
+      </div>
+
+    </div>
+
+
+  <div class="row">
+
+      <div class="col-lg-12">
+          <h3 class="page-header">Project</h3>
+      </div>
+
+      <div class="col-sm-3 col-xs-6">
+          <a href="#" class ="thumbnail">
+              <img class="img-responsive portfolio-item" src="http://virtualworldsforteens.com/wp-content/uploads/2013/06/Super-Dancer8.jpg" alt="">
+          </a>
+          <P class="lead">Step 1 Innovative Learning Method</P>
+      </div>
+
+      <div class="col-sm-3 col-xs-6">
+          <a href="#" class ="thumbnail">
+              <img class="img-responsive portfolio-item" src="https://adventuregames101.files.wordpress.com/2011/01/weudaedavh.jpg" alt="">
+          </a>
+          <P class="lead">Step 2 Fun and Happy</P>
+      </div>
+
+      <div class="col-sm-3 col-xs-6">
+          <a href="#" class ="thumbnail">
+              <img class="img-responsive portfolio-item" src="http://yoffielife.com/wp-content/uploads/2015/05/shutterstock_296654168-790x350.jpg" alt="">
+          </a>
+          <P class="lead">Step 3 Improve Learning Movitation</P>
+      </div>
+
+      <div class="col-sm-3 col-xs-6">
+          <a href="#" class ="thumbnail">
+              <img class="img-responsive portfolio-item" src="http://www.computerrepairsheffield.com/web-.jpg" alt="">
+          </a>
+          <P class="lead">Step 4 Versatile Devices</P>
+      </div>
+
+  </div>

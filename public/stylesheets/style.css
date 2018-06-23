@@ -1,0 +1,57 @@
+body{
+    text-shadow:2px 2px 3px #000000;
+
+}
+button{
+  box-shadow:
+  0 10px 20px 0 rgba(0, 0, 0, 0.2),
+  0 15px 20px 0 rgba(0, 0, 0, 0.2);
+}
+.container{
+  position: center;
+
+}
+.thumbnail img{
+    height: 270px;
+
+}
+.alert{
+  font-size: 20px;
+  color:yellow;
+}
+.carousel-caption h3 {
+font-size:      2em;
+color:          black;
+}
+.carousel-caption p {
+font-size:      2em;
+color:          black;
+}
+
+.carousel-inner > .item > img {
+  width:900px;
+  height:460px;
+
+}
+.thumbnail img{
+    width:100%;
+    height: 200px;
+    box-shadow:
+    0 10px 20px 0 rgba(0, 0, 0, 0.8),
+    0 15px 20px 0 rgba(0, 0, 0, 0.8);
+}
+.footer {
+  position:relative;
+  top:200%;
+  left:20%
+  border:850px;
+  text-align: center;
+  background-color: ;
+}
+
+.carousel-inner {
+
+  box-shadow:
+  0 10px 20px 0 rgba(0, 0, 0, 0.8),
+  0 15px 20px 0 rgba(0, 0, 0, 0.8);
+}

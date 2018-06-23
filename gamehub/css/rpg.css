@@ -1,0 +1,83 @@
+
+
+
+	body {
+		margin-top: 50px;
+		margin-bottom: 50px;
+		background: none;
+		text-shadow:1px 1px 1px #000000;
+		font-size: 15px;
+		color:red;
+	}
+
+	.full {
+	  background: url(https://crypt-webgl.unigine.com/assets/screenshots/10.png) no-repeat center center fixed;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	}
+	.answer:hover {
+		 border-bottom: 1px solid blue;
+		text-decoration: none;
+		background-color: #F5F5DC;
+		cursor: pointer;
+	}
+	#question-box {
+			margin: 10px;
+			width:550px;
+			height:400px;
+			position: absolute;
+			top: 200px;
+			left: 620px;
+			box-shadow:
+			0 10px 20px 0 rgba(0, 0, 0, 0.2),
+			0 15px 20px 0 rgba(0, 0, 0, 0.2);
+	}
+	#question-box {
+			margin: 0;
+			width:550px;
+			height:400px;
+			position: absolute;
+			top: 180px;
+			left: 700px;
+			font-size: 20px;
+			color:white;
+
+			box-shadow:
+			0 10px 20px 0 rgba(0, 0, 0, 0.2),
+			0 15px 20px 0 rgba(0, 0, 0, 0.2);
+			font-weight: bold;
+	}
+
+	.answer-box {
+			margin: 0;
+			position: absolute;
+			top: 260px;
+			left: 700px;
+			font-size: 20px;
+			color:#ff3333;
+			width:250px;
+			font-weight: bold
+
+	}
+	#enchant-stage{
+		margin: 0;
+		width:600px;
+		height:680px;
+		box-shadow:
+		0 10px 20px 0 rgba(0, 0, 0, 0.2),
+		0 15px 20px 0 rgba(0, 0, 0, 0.2);
+	}
+	#question{
+		background: none;
+		color:blue;
+		position: absolute;
+		left: 620px;
+		top:60px;
+		font-size: 18px;
+		font-weight: bold;
+		box-shadow:
+		0 10px 20px 0 rgba(0, 0, 0, 0.2),
+		0 15px 20px 0 rgba(0, 0, 0, 0.2);
+	}

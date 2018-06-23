@@ -1,0 +1,92 @@
+/*!
+ * Start Bootstrap - The Big Picture (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background: none;
+	text-shadow:1px 1px 1px #000000;
+	font-size: 15px;
+}
+h3{
+	text-shadow:2px 2px 2px #000000;
+	font-size: 20px;
+	color:red;
+}
+.full {
+  background: url(https://www.gamecrate.com/sites/default/files/field/image/BioShock_The_Collection_confirmed[1].jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#showResult{
+	width:450px;
+	height:190px;
+  position: absolute;
+  left: 630px;
+	font-size: 25px;
+	box-shadow:
+	0 10px 20px 0 rgba(0, 0, 0, 0.2),
+	0 15px 20px 0 rgba(0, 0, 0, 0.2);
+	text-shadow:1px 1px 1px #000000;
+
+}
+
+#editor {
+		margin: 10px;
+		width:450px;
+		height:400px;
+		position: absolute;
+		top: 260px;
+		left: 620px;
+		box-shadow:
+		0 10px 20px 0 rgba(0, 0, 0, 0.2),
+		0 15px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+#errors {
+		margin: 0;
+		position: absolute;
+		top: 68px;
+		left: 14px;
+		font-size: 20px;
+		color:#ff3333;
+		width:601px;
+		font-weight: bold;
+		border-style: hidden;
+
+}
+#enchant-stage{
+	margin: 0;
+	width:600px;
+	height:680px;
+	box-shadow:
+	0 10px 20px 0 rgba(0, 0, 0, 0.2),
+	0 15px 20px 0 rgba(0, 0, 0, 0.2);
+}
+#instruction{
+	width:450px;
+	height:200px;
+	background: none;
+	color:blue;
+	position: absolute;
+	left: 630px;
+	top:60px;
+	font-size: 23px;
+	font-weight: bold;
+	box-shadow:
+	0 10px 20px 0 rgba(0, 0, 0, 0.2),
+	0 15px 20px 0 rgba(0, 0, 0, 0.2);
+}
+#finalMark{
+	position: absolute;
+	left: 30%;
+	top:  50%;
+	font-size: 30px;
+	color: white;
+}
