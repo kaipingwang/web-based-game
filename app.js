@@ -18,7 +18,12 @@ var app = express();
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://test:1234@localhost:27017/game');
 require('./config/passport');
 // view engine setup
-app.engine('.hbs',expressHbs({defaultLayout:'Layout',extname:'.hbs'}))
+app.engine('.hbs', exphbs({
+    extname: '.hbs',
+    defaultLayout: 'main',
+    partialsDir: path.join(__dirname, 'views/partials'),
+    layoutsDir: path.join(__dirname, 'views/layouts')
+  }));
 app.set('view engine', '.hbs');
 
 // uncomment after placing your favicon in /public
