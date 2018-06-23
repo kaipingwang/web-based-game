@@ -18,7 +18,7 @@ var app = express();
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://test:1234@localhost:27017/game');
 require('./config/passport');
 // view engine setup
-app.engine('.hbs', exphbs({
+app.engine('.hbs', expressHbs({
     extname: '.hbs',
     defaultLayout: 'layout',
     partialsDir: path.join(__dirname, 'views/partials'),
