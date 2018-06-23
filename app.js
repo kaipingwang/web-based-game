@@ -20,7 +20,7 @@ require('./config/passport');
 // view engine setup
 app.engine('.hbs', exphbs({
     extname: '.hbs',
-    defaultLayout: 'main',
+    defaultLayout: 'layout',
     partialsDir: path.join(__dirname, 'views/partials'),
     layoutsDir: path.join(__dirname, 'views/Layouts')
   }));
