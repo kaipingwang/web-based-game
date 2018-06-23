@@ -1,6 +1,6 @@
 var Question = require('../models/questionModel');
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://test:1234@localhost:27017/game');
+mongoose.connect(process.env.MONGODB_URI  || 'mongodb://test:1234@localhost:27017/game');
 
 
 var questions =[
