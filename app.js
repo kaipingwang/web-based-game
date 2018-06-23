@@ -22,7 +22,7 @@ app.engine('.hbs', exphbs({
     extname: '.hbs',
     defaultLayout: 'main',
     partialsDir: path.join(__dirname, 'views/partials'),
-    layoutsDir: path.join(__dirname, 'views/layouts')
+    layoutsDir: path.join(__dirname, 'views/Layouts')
   }));
 app.set('view engine', '.hbs');
 
