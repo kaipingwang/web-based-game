@@ -3,12 +3,7 @@
     "version": "1.2.6",
     "description": "Ace (Ajax.org Cloud9 Editor)",
     "scripts": {
-        "start":"node index.js",
         "test": "echo \"Error: no test specified\" && exit 1"
-
-    },
-    "engine":{
-      "node":"v8.0.0"
     },
     "repository": {
         "type": "git",

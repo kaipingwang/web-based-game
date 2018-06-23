@@ -15,7 +15,7 @@ var validator = require('express-validator');
 
 
 var app = express();
-mongoose.connect('process.env.MONGODB_URI||mongodb://test:1234@localhost:27017/game');
+mongoose.connect(process.env.MONGOOB_URI || 'mongodb://test:1234@localhost:27017/game');
 require('./config/passport');
 // view engine setup
 app.engine('.hbs',expressHbs({defaultLayout:'Layout',extname:'.hbs'}))
