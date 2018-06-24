@@ -1,6 +1,6 @@
 var Image = require('../models/Image');
 var mongoose = require('mongoose');
-mongoose.connect(process.env.MONGODB_URI  || 'mongodb://test:1234@localhost:27017/game');
+mongoose.connect(process.env.MONGODB_URI ||'mongodb://game:aa1234@ds117061.mlab.com:17061/heroku_rfcwjx13');
 
 
 var Images = new Image({

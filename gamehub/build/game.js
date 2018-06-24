@@ -31,7 +31,7 @@ function call(index) {
   $(".answer-box").fadeIn('slow');
   $("#question-box").fadeIn('slow');
 myCounter()
-  var baseUrl = "http://localhost:3000/question"
+  var baseUrl = "https://floating-springs-48195.herokuapp.com/question"
   $.get(baseUrl, function searchCallback(data) {
     $('#question-box').empty();
     $('#answer0').empty();// clean the previous text on the element
