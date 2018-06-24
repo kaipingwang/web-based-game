@@ -17,7 +17,7 @@ module.exports = {
 
     show: function(req, res) {
         var id = req.params.id;
-        questionModel.findOne({_id: id}, function(err, question){
+        questionModel.findOne({id: id}, function(err, question){
             if(err) {
                 return res.status(500).json({
                     message: 'Error getting question.'

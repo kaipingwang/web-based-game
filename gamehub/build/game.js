@@ -442,7 +442,7 @@ block =true
 
         function monster(){
           var number =Math.floor((Math.random() * 2));
-             console.log(number)
+             //console.log(number)
           call(number);
             var bg =new AvatarBG(1);
             bg.y=50;
